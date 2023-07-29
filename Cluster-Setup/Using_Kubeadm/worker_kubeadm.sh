@@ -2,7 +2,6 @@
 echo "54.176.122.32		master" >> /etc/hosts
 echo "13.56.182.221		worker" >> /etc/hosts
 hostnamectl set-hostname worker
-bash
 
 #disbale firwalld and swap memory
 systemctl disable firewalld; systemctl stop firewalld

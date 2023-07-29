@@ -1,6 +1,6 @@
 #set hostname and local dns
 hostnamectl set-hostname minikube
-echo "192.168.234.135	master" >> /etc/hosts
+echo "192.168.234.135	minikube" >> /etc/hosts
 
 #installing the container runtime like containerd and docker 
 yum install yum-utils -y

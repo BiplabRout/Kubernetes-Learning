@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: web2
+ labels:
+  app: prod
+  authro: brlab
+  region: london
+spec:
+ containers:
+ - name: web-cont2
+   image: nginx
+   ports:
+    - containerPort: 80
